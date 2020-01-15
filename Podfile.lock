@@ -1,0 +1,30 @@
+PODS:
+  - JGProgressHUD (2.0.3)
+  - ReachabilitySwift (3)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - UIColor_Hex_Swift (4.2.0)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - ReachabilitySwift (~> 3)
+  - SDWebImage
+  - UIColor_Hex_Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JGProgressHUD
+    - ReachabilitySwift
+    - SDWebImage
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  UIColor_Hex_Swift: bc07fc197421ee896b9ed6dcfa2054b7fbf75145
+
+PODFILE CHECKSUM: 79eed80ad5d5dba5b3f695eaf3b1576dbadfba54
+
+COCOAPODS: 1.5.3

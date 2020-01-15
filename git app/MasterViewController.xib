@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MasterViewController" customModule="git_app" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionview" destination="jmS-Z6-B6n" id="dRK-mD-ESH"/>
+                <outlet property="txtbuscar" destination="dFd-yW-VyE" id="mCg-dD-4zn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jmS-Z6-B6n">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZIH-lU-Kpi">
+                        <size key="itemSize" width="100" height="100"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Buscar" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dFd-yW-VyE">
+                    <rect key="frame" x="10" y="30" width="322" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jmS-Z6-B6n" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3q3-aM-jPV"/>
+                <constraint firstItem="dFd-yW-VyE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="TCy-HS-FZy"/>
+                <constraint firstItem="dFd-yW-VyE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="mEV-3k-zPT"/>
+                <constraint firstAttribute="trailing" secondItem="jmS-Z6-B6n" secondAttribute="trailing" id="n0k-TV-9fq"/>
+                <constraint firstItem="jmS-Z6-B6n" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nD8-S7-Xp0"/>
+                <constraint firstAttribute="trailing" secondItem="dFd-yW-VyE" secondAttribute="trailing" constant="43" id="nLt-7v-djR"/>
+                <constraint firstAttribute="bottom" secondItem="jmS-Z6-B6n" secondAttribute="bottom" id="rhY-GA-2jR"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="98.50074962518741"/>
+        </view>
+    </objects>
+</document>
